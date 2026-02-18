@@ -1,0 +1,4 @@
+height = input("Please enter your height (in cm): ")
+weight = input("Please enter your weight(in kg): ")
+bmi_index = round(int(weight) / (float(height) / 100) ** 2)
+print("your BMI Index is: ", bmi_index)
